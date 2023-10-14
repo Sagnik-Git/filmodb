@@ -1,1 +1,1 @@
-[link to app](https://filmodb-testing.vercel.app/)
+[link to app](https://filmodb.vercel.app/)
