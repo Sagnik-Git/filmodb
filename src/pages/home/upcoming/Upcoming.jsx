@@ -9,7 +9,7 @@ import useFetch from "../../../hooks/UseFetch";
 const Upcoming = () => {
     const [endpoint, setEndpoint] = useState("en");
 
-    const { data, loading } = useFetch(`/movie/upcoming?with_original_language=${endpoint}`);
+    const { data, loading } = useFetch(`/movie/upcoming?language=${endpoint}`);
 
     const onTabChange = (tab) => {
         setEndpoint(tab === "English" ? "en" : "hi-IN");
