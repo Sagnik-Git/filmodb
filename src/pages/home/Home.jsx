@@ -5,13 +5,11 @@ import Trending from './trending/Trending';
 import Popular from './popular/Popular';
 import TopRated from './topRated/TopRated';
 import PopularIN from './popularIN/PopularIN';
-import Upcoming from './upcoming/Upcoming';
 
 const Home = () => {
   return (
     <div className="homePage">
       <HeroBanner />
-      <Upcoming />
       <Trending />
       <PopularIN />
       <Popular />
