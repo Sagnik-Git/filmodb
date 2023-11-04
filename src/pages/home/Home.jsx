@@ -11,9 +11,9 @@ const Home = () => {
     <div className="homePage">
       <HeroBanner />
       <Trending />
-      <PopularIN />
-      <Popular />
       <TopRated />
+      <Popular />
+      <PopularIN />
     </div>
   )
 }
