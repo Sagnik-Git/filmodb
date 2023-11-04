@@ -12,7 +12,7 @@ const Upcoming = () => {
     const { data, loading } = useFetch(`/movie/upcoming?with_original_language=${endpoint}`);
 
     const onTabChange = (tab) => {
-        setEndpoint(tab === "English" ? "en" : "hi");
+        setEndpoint(tab === "English" ? "en" : "hi-IN");
     };
 
     return (
